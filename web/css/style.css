@@ -1,0 +1,85 @@
+h3 {
+    padding-left: 100px;
+}
+h4 {
+    margin-top: 0;
+}
+a {
+    text-decoration: none;
+    color: darkgreen;
+}
+.list {
+    padding-left: 10%;
+    width: 50%;
+}
+.root {
+    padding: 5px;
+    border: 1px solid #575757;
+    margin-top: 2px;
+}
+.subitem {
+    margin-left: 10px;
+}
+.show {
+    display: none;
+    width: 50%;
+    height: 200px;
+    border: 1px solid;
+    padding: 10px;
+    position: fixed;
+    left: 20%;
+    top: 5%;
+    background-color: gainsboro;
+}
+.hide {
+    color: darkred;
+    width: 100%;
+    text-align: right;
+    cursor: pointer;
+}
+
+.item {
+    padding: 5px;
+}
+.login {
+    display: flex;
+    Justify-content:center;
+}
+.login__input {
+    padding: 10px;
+}
+.enter {
+    padding-left: 40%;
+}
+.error {
+    color:red;
+}
+.modify {
+    margin-left: 10px;
+    cursor: pointer;
+}
+.descript {
+    color:blue;
+}
+.add {
+    color: chartreuse;
+}
+.add-root {
+    font-size: 30px;
+    display: none;
+}
+.edit {
+    color:orangered;
+}
+.delete {
+    color:red;
+}
+.jump{
+    color: darkred;
+}
+.description {
+    font-family: Arial, sans-serif
+}
+#exit {
+    display: none;
+}

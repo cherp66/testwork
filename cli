@@ -1,0 +1,7 @@
+#!/usr/bin/env php
+<?php
+
+include_once __DIR__ . '/services/_autoloader.php';
+$config = include_once __DIR__ .'/console/config.php';
+$report = (new \console\CliManager($config))->run();
+exit($report);
